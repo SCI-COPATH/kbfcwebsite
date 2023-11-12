@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala Blasters FC</title>
+  <link rel="icon" 
+      type="image/svg" 
+      href="./assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/76ebfeb27c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header class="hedder-style">
+    <nav class="navbar navbar-expand-lg  navbar-dark navbar-local ">
+      <div class="container-fluid d-flex justify-content-between local-nav-mod" style="width: 100%;">
+        <!-- <img src="./assets/Build.MyWeb.png" alt="logo" style="height: 40px;"> -->
+        <!-- <div class="my-hedding p-3">
+              <span class="my_name">Kerala Blasters FC</span>
+              <span class="my_title">Student</span>
+            </div> -->
+        <div class="my-hedding">
+          <!-- <a class="navbar-brand" href="#"> -->
+          <img src="./assets/logo.svg" alt="logo" height="50" class="d-inline-block align-text-top">
+          <span>Kerala Blasters FC</span>
+          <!-- </a> -->
+        </div>
+
+        <button id='toggle-button' class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation" onclick="collapsMode()">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span class="fa-solid fa-bars"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item" id="navitm1" data-bs-toggle="" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" onclick="navivateLocation('#home')">Home</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" onclick="navivateLocation('#playres')">Playres</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" onclick="navivateLocation('#about')">About us</a>
+            </li>
+
+            <li class="nav-item" data-bs-toggle="" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" onclick="navivateLocation('#manjappada-fans')">Fans</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="home" class="outbox">
+    <div class="playr-image">
+      <h1 class="content-img">
+        Kerala Balasters FC: Unleashing passion, skill, and unity on the field, aiming for victory in every heartbeat
+      </h1>
+      <img src="./assets/home/home-img.png" alt="">
+    </div>
+    <div class="nextmatch">
+      <h1>Next Match</h1>
+      <div class="game-statitics">
+        <div class="left">
+          <div class="home-team tems"></div>
+          <h1>VS</h1>
+          <div class="away-team tems"></div>
+        </div>
+        <div class="right"></div>
+
+      </div>
+    </div>
+    <div class="standing-outer">
+      <h1>STANDINGS</h1>
+      <h2>INDIAN SUPER LEAGUE</h2>
+      <table id="headdinngRow">
+        <tr>
+          <th>POS</th>
+          <th class='team-row'>CLUB</th>
+          <th>MP</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
+          <th>GF</th>
+          <th>GA</th>
+          <th>GD</th>
+          <th>PTS</th>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <section id="playres" class="outbox">
+    <div class="inner">
+    <div class="playre-in">
+      <h1>playres</h1>
+    </div>
+    <div class="row">
+
+    </div>
+  </div>
+  </section>
+  <section id="about" class="outbox">
+    <div class="inner">
+      <h2>About</h2>
+      <p>
+        Kerala Blasters FC, fondly known as "The Blasters," is a professional football club based in Kochi, Kerala,
+        India, that competes in the Indian Super League (ISL), the top tier of Indian football. Established in 2014, the
+        club has rapidly ascended to become one of the most popular and well-supported teams in Asia, boasting a
+        passionate fan base known as the "Manjappada" or "Yellow Army."
+      </p>
+      <P>
+        The Blasters' journey began during the inaugural season of the ISL, where they made an immediate impact,
+        reaching the finals but narrowly losing to ATK in extra time. Despite the heartbreak, the club's attacking flair
+        and unwavering spirit ignited a passionate fan following, establishing a formidable reputation in Indian
+        football. Their home matches at the Jawaharlal Nehru Stadium in Kochi became a spectacle, drawing
+        record-breaking crowds that roared with every touch, every tackle, every goal.
+      </P>
+      <P>
+        Driven by the unwavering support of their loyal fans, the Blasters continued to challenge for glory in the
+        following seasons. They reached the finals twice more, in 2016 and 2022, but ultimately fell short of the
+        ultimate prize on both occasions. Despite these setbacks, the club's determination and the fervent support of
+        their fan base have cemented their status as a powerhouse in Indian football. The Blasters remain a force to be
+        reckoned with, aiming to bring home the coveted ISL championship in the years to come.</p>
+      </P>
+      <h2>History</h2>
+      <p>
+        Founded in 2014, the Kerala Blasters FC swiftly emerged as a powerhouse in the Indian Super League (ISL),
+        capturing the hearts of football enthusiasts. Co-owned by cricket legend Sachin Tendulkar and entrepreneur
+        Prasad V. Potluri, the club's inaugural season in 2014 marked a remarkable journey to the finals, symbolizing
+        its competitive prowess. Under coach David James, the team's spirited performances resonated with fans, despite
+        falling short against ATK. The Blasters continued to impress in subsequent seasons, maintaining a strong fan
+        base known as the Manjappada. The 2016 season witnessed a second consecutive appearance in the finals,
+        reinforcing the club's resilience but ending in another heartbreak against ATK. The team's consistency, both on
+        the field and in fan engagement, solidified its status as a prominent force in Indian football.
+      </p>
+      <p>
+        As the seasons unfolded, the Kerala Blasters experienced a series of coaching changes and varying degrees of
+        success. The unwavering support from the passionate Manjappada fan base, however, remained a constant. The
+        club's commitment to fostering a unique football culture in Kochi, evident in the vibrant atmosphere during home
+        matches, showcased the enduring impact of the Kerala Blasters on the Indian football landscape. Beyond my last
+        knowledge update in January 2022, the club's story has likely seen further developments, making it advisable to
+        refer to more recent sources for the latest updates on the Kerala Blasters FC.
+      </p>
+      <div class="stadium">
+        <h2>Stadium</h2>
+        <div class="image-continer">
+          <img src="./assets/stadium.jpg" alt="studium">
+        </div>
+        <h4>location</h4>
+        <div class="responsive-map-container">
+          <!-- place the iframe code between here... -->
+          <iframe
+            src="https://maps.google.com/maps?q=awaharlal+Nehru+International+Stadium+Kochi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="600" height="450" frameborder="0" style="border:0"></iframe>
+          <!-- ... and here -->
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <section class="outbox" id="manjappada-fans">
+    <div class="inner">
+      <h2>Kerala Blastres fans</h2>
+      <P>Kerala Blasters FC, one of the most popular football clubs in India, boasts a passionate and dedicated fan base
+      known as Manjappada, meaning "Yellow Army" in Malayalam. Renowned for their unwavering support and electrifying
+      atmosphere at home games, Manjappada has earned a reputation as one of the most vibrant and enthusiastic fan
+      groups in Indian football.
+    </P><p>
+      Founded in 2014, Manjappada has grown rapidly, expanding its presence across Kerala and beyond. With over 100,000
+      members worldwide, the fan club has established branches in each of Kerala's 14 districts and in 12 other Indian
+      states. Additionally, Keralites residing in over 60 countries have joined the ranks of Manjappada, demonstrating
+      the global reach of their unwavering support for Kerala Blasters FC.
+    </p><p>
+      Manjappada's dedication to their team is evident in their consistent presence at home matches. During the
+      inaugural season of the Indian Super League (ISL) in 2014, Kerala Blasters FC recorded an average attendance of
+      49,000, the highest in the league. By 2015, Manjappada's organizational efforts further boosted attendance, with
+      the Blasters averaging 52,000 fans per match, setting a new ISL record.
+    </p><p>
+      Their unwavering support extends beyond mere attendance numbers. Manjappada is known for their synchronized
+      chants, colorful displays, and unwavering passion throughout the match, creating an electrifying atmosphere that
+      has become synonymous with Kerala Blasters FC home games. Their energy and enthusiasm have not gone unnoticed, as
+      Manjappada has twice been awarded the Indian Sports Honours Fan Club of the Year award, in 2017 and 2019.
+    </p><p>
+      Manjappada's impact extends beyond the boundaries of the football field. The fan club actively engages in
+      community service initiatives, demonstrating their commitment to giving back to society. They have organized blood
+      donation camps, distributed food and clothing to the underprivileged, and supported educational programs for
+      underprivileged children.
+    </p><p>
+      In conclusion, Kerala Blasters FC's Manjappada stands as a testament to the unifying power of sport and the
+      unwavering passion of fans. Their dedication, enthusiasm, and commitment to community service have set a high
+      standard for fan clubs across India and beyond.
+    </p>
+    <div class="manjappada">
+      <img src="./assets/Manjappada.jpg" alt="manjappada">
+    </div>
+    
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+  "api": {
+    "results": 1,
+    "fixtures": [
+      {
+        "fixture_id": 1131667,
+        "league_id": 5754,
+        "league": {
+          "name": "Indian Super League",
+          "country": "India",
+          "logo": "https://media-4.api-sports.io/football/leagues/323.png",
+          "flag": "https://media-4.api-sports.io/flags/in.svg"
+        },
+        "event_date": "2023-11-25T20:00:00+05:30",
+        "event_timestamp": 1700922600,
+        "firstHalfStart": null,
+        "secondHalfStart": null,
+        "round": "Regular Season - 7",
+        "status": "Not Started",
+        "statusShort": "NS",
+        "elapsed": 0,
+        "venue": "Jawaharlal Nehru International Stadium",
+        "referee": null,
+        "homeTeam": {
+          "team_id": 3477,
+          "team_name": "Kerala Blasters",
+          "logo": "https://media-4.api-sports.io/football/teams/3477.png"
+        },
+        "awayTeam": {
+          "team_id": 7763,
+          "team_name": "Hyderabad",
+          "logo": "https://media-4.api-sports.io/football/teams/7763.png"
+        },
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null,
+        "score": {
+          "halftime": null,
+          "fulltime": null,
+          "extratime": null,
+          "penalty": null
+        }
+      }
+    ]
+  }
+}

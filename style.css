@@ -1,0 +1,329 @@
+:root {
+    --primery-yellow: #F2DD21;
+    --primery-blue: #1E6DEB;
+    --primery-white: #FFF;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    /* overflow: hidden; */
+
+}
+
+.navbar-local {
+    background-color: var(--primery-blue);
+}
+
+nav .navbar-nav li a {
+    font-weight: 500;
+    color: var(--primery-white) !important;
+}
+
+nav .navbar-nav li a:hover {
+    color: var(--primery-yellow) !important;
+}
+
+.my-hedding {
+    padding-right: 0 !important;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hedder-style {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.my-hedding span {
+    margin: auto auto;
+    vertical-align: middle;
+    color: var(--primery-white);
+    font-weight: 700;
+    font-size: larger;
+    padding: 0px 10px;
+}
+.manjappada img{
+    width: 100%;
+}
+.playr-image {
+    /* position:relative; */
+    /* top: 65px; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    color: var(#232323);
+    padding-top: 80px;
+    padding-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./assets/home/yellow_diagonal_geometric_striped_background_with_halftone_detailed.svg');
+}
+
+.playr-image h1 {
+    margin: auto;
+    font-weight: 900;
+}
+
+.playr-image img {
+    width: 50%;
+}
+
+.team-row img {
+    width: 20px;
+
+}
+
+.team-row {
+    text-align: left !important;
+}
+
+.standing-outer h1 {
+    margin-top: 40px;
+}
+
+.standing-outer {
+    /* background-color: #232323;  */
+    /* background-color: #121212; */
+    background-image: url("./assets/home/stadium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+#headdinngRow {
+    margin: auto;
+    min-width: 80vw;
+}
+
+#headdinngRow th, #headdinngRow td {
+    padding: 15px 0px;
+    /* background-color: #F2DD21; */
+
+}
+
+#headdinngRow th {
+    background-color: var(--primery-yellow);
+}
+
+#headdinngRow td {
+    color: #fff;
+}
+
+.zero {
+    background-color: #232323;
+}
+
+.one {
+    background-color: #323232;
+}
+
+#myteam {
+    /* color: red !important; */
+    background-color: #1E6DEB;
+}
+
+.nextmatch {
+    background-image: url('/assets/home/blue-soccer-ball-kicks-into-net-generative-ai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--primery-white);
+    padding: 30px 10px;
+}
+
+.nextmatch h1 {
+    text-align: center;
+
+}
+
+.game-statitics {
+    background-color: var(--primery-yellow);
+    width: 80vw;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #232323;
+}
+
+.left {
+
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 3px solid #232323;
+}
+
+.tems h4 {
+    text-align: center;
+
+
+}
+
+.left h1 {
+    margin: auto;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.right {
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+.right h4, .right h5 {
+    font-weight: 900;
+}
+
+.playre-card {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: max-content;
+    /* background-color: #323232; */
+    background-color: #FFF;
+    border-radius: 10px;
+
+}
+
+.playre-card div {
+    margin: auto 0;
+
+}
+
+#playres {
+    margin: 0;
+    padding: 0;
+}
+
+.outbox {
+    padding-top: 65px !important;
+}
+
+.work-card {
+    width: max-content;
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #232323;
+    background-color: #FFF;
+
+
+}
+#playres{
+    background-color: #F2DD21;
+}
+#about{
+    background-color:#F2DD21;
+}
+.colums {
+    display: flex;
+    justify-content: center;
+
+}
+
+.work-card div {
+    margin-top: 15px;
+}
+
+.work-card img {
+    width: 200xp;
+    border-radius: 18px;
+}
+
+.inner {
+    margin: auto;
+    
+    padding: 10px;
+    max-width: 80vw;
+}
+.responsive-map-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-map-container iframe,
+.responsive-map-container object,
+.responsive-map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.image-continer{
+    width: 100%;
+}
+
+.image-continer img{
+    width: 100%;
+}
+.stadium{
+    width: 100%;
+}
+#manjappada-fans{
+    background-color: #F2DD21;
+}
+.inner { 
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #FFF;
+}
+.inner div img{
+    border-radius: 10px;
+}
+@media only screen and (max-width: 730px) {
+    .playr-image {
+        display: block;
+    }
+
+    .game-statitics {
+        display: block;
+        width: 95vw;
+    }
+
+    .left {
+        border-right: none;
+        border-bottom: 2px solid #232323;
+    }
+
+   
+}
+
+
+/* .isl-table-head{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+} */
+/* .isl-table-head h2{
+    margin:  auto 0;
+}
+.isl-table-head img{
+    width:40px;
+    margin: 0 10px;
+
+} */
