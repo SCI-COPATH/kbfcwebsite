@@ -139,7 +139,7 @@ nav .navbar-nav li a:hover {
 }
 
 .nextmatch {
-    background-image: url('/assets/home/blue-soccer-ball-kicks-into-net-generative-ai.jpg');
+    background-image: url('./assets/home/blue-soccer-ball-kicks-into-net-generative-ai.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--primery-white);

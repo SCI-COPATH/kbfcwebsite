@@ -190,7 +190,7 @@ async function playereFeatch(){
 
     try {
         // 
-        const response = await fetch('/playre.json');
+        const response = await fetch('./playre.json');
         const result = await response.json();
         // console.log(result.response);
         showPlayre(result.response)
